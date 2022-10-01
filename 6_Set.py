@@ -1,0 +1,16 @@
+s = set()
+print(type(s))
+set_from_list = {54, 53, 21, 27, 78, 75, 96, 932}
+print(set_from_list)
+s.add(1)
+s.add(2)
+print(s)
+s1 = s.union(set_from_list)
+print(s1)
+s2 = s.intersection({1, 2, 3})
+print(s2)
+print(len(s))
+print(max(s))
+print(min(s))
+s3 = {21, 23}
+print(s.isdisjoint(s1))
